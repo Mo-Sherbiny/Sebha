@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="head">
+            <p>السبحة الألكترونية</p>
+        </div>
+        <div class="result">
+            <p id="counter"></p>
+        </div>
+        <div class="reset">
+            <button onclick="reset()">RESET</button>
+        </div>
+        <div class="count">
+            <button onclick="count()">COUNT</button>
+        </div>         
+    </div>
+    <script type="text/javascript">
+    document.getElementById("counter").innerHTML = "0"
+    var temp = 0;
+    function count(){
+        temp += 1;
+        document.getElementById("counter").innerHTML = temp.toString();
+    }
+
+    function reset() {
+        temp = 0;
+        document.getElementById("counter").innerHTML = "0"
+    }
+    </script>
+</body>
+</html>
