@@ -8,6 +8,7 @@ html {
     text-align: center;
     min-width: 425px;
     min-height: 100%;
+    background-image: linear-gradient(90deg, rgb(97, 85, 7) 18%, rgb(130, 123, 58) 57%, rgb(70, 84, 37) 100%);
 }
 
 .container {
