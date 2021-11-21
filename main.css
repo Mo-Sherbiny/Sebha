@@ -8,8 +8,6 @@ html {
     text-align: center;
     min-width: 425px;
     min-height: 100%;
-    background: rgb(121,106,9);
-    background: linear-gradient(90deg, rgba(121,106,9,1) 18%, rgba(163,154,72,1) 57%, rgba(201,219,174,1) 100%); 
 }
 
 .container {
@@ -18,9 +16,10 @@ html {
     justify-content: center;
     flex-flow: column wrap;
     width: 520px;
-    height: 880px;
+    height: 825px;
     margin-top: 80px;
     border-style: solid;
+    background: #2d281a;
 }
 
 .result {
@@ -61,7 +60,7 @@ html {
 
 .head {
     font-family: 'Aref Ruqaa', serif; 
-    font-size: 85px;
+    font-size: 80px;
 }
 
 @media screen and (max-width: 600px) {
