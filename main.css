@@ -70,7 +70,9 @@ html {
       font-size: 56px;
     }
     .container {
-        width: 350px;
+        width: 358px;
+        margin-bottom: 5em;
+        height: 49rem;
     }
     .count button {
         width: 150px;
