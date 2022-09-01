@@ -21,6 +21,7 @@ html {
     margin-top: 16px;
     border-style: solid;
     background: #bdbb2f;
+    border-radius: 8px;
 }
 
 .result {
